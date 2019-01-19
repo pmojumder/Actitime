@@ -1,5 +1,6 @@
 package com.actitime.tests;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.actitime.generic.BaseTest;
@@ -26,6 +27,7 @@ public class ValidLoginLogOut extends BaseTest
     lp.VerifyTitle(entertimetracktitle);
     
     cp.clickLogout(); 
+    Reporter.log("......");
 
   }
 }
